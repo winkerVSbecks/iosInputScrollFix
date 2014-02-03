@@ -28,16 +28,26 @@
 
     <div class="container">
         
-        <h1>Form</h1>
+        <h1>Form Title</h1>
         
         <form class="sixteen columns">  
             <!-- Label and text input -->
             <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput" />
+            <input type="text" />
 
-            <!-- Label and textarea -->
-            <label for="regularTextarea">Regular Textarea</label>
-            <textarea id="regularTextarea"></textarea>
+            <!-- Label and text input -->
+            <fieldset>
+                <label for="regularInput">Date Input</label>
+                <input type="date" />
+            </fieldset>
+
+            <!-- Label and text input -->
+            <label for="regularInput">Email Input</label>
+            <input type="email" />
+
+            <!-- Label and text input -->
+            <label for="regularInput">Telephone Number Input</label>
+            <input type="tel" />
 
             <!-- Label and select list -->
             <label for="selectList">Select List</label>
@@ -47,9 +57,16 @@
                 <option value="Option 3">Option 3</option>
             </select>
 
+            <!-- Label and textarea -->
+            <label for="regularTextarea">Regular Textarea</label>
+            <textarea id="regularTextarea"></textarea>
+
+            <!-- Label and text input -->
+            <label for="regularInput">Number Input</label>
+            <input type="number" />
+
             <!-- Wrap checkbox/radio button groups in fieldsets -->
             <fieldset>
-
                 <!-- Give the fieldset a label -->
                 <label for="">Checkboxes</label>
 
@@ -64,34 +81,6 @@
                     <span>Regular Checkbox</span>
                 </label>
             </fieldset>
-
-            <!-- Label and text input -->
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput" />
-
-            <fieldset>
-                <label for="">Radio Buttons</label>
-                <label for="regularRadio">
-                  <input type="radio" name="radios" id="regularRadio" value="radio 1" />
-                  <span>Regular Radio</span>
-                </label>
-                <label for="secondRegularRadio">
-                  <input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
-                  <span>Regular Radio</span>
-                </label>
-            </fieldset>
-
-            <!-- Label and text input -->
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput" />
-
-            <!-- Label and text input -->
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput" />
-
-            <!-- Label and text input -->
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput" />
 
             <button type="submit">Submit Form</button> 
         </form>
